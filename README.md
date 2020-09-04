@@ -1,4 +1,4 @@
-## Gitpod workspace for a Kompo dev environment with Laravel & Vue & TailwindCSS scaffolding
+## Gitpod workspace for a Kompo dev environment with Laravel & Vue & TailwindCSS
 
 This is a fresh installation of Laravel that comes with Kompo prebuilt and Tailwind and Vue.js Front-end scaffolding.
 
