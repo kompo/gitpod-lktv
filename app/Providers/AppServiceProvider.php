@@ -23,6 +23,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        //For gitpod to work, the APP_URL is not being persisted otherwise...
+        \URL::forceRootUrl(\Config::get('app.url'));
+        if (\Str::contains(\Config::get('app.url'), 'https://')) {
+            \URL::forceScheme('https');
+        }
     }
 }
