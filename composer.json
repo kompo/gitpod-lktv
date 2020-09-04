@@ -1,10 +1,11 @@
 {
-    "name": "kompo/laravel-vue-starter",
+    "name": "kompo/gitpod-lktv",
     "type": "project",
-    "description": "A Kompo pre-installed development environment with Laravel & Vue.js",
+    "description": "A Kompo pre-installed Gitpod Workspace (development environment) with Laravel & TailwindCSS & Vue.js",
     "keywords": [
         "kompo",
         "laravel",
+        "tailwind",
         "vue.js"
     ],
     "license": "MIT",
