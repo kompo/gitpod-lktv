@@ -30,6 +30,9 @@ class KompoDemoForm extends Form
 				'3' => 'tailwind-css'
 			]),
 			Textarea::form('About me')->rows(6),
+            _CKEditor('Note'),
+            _Place('Address'),
+            _Trix('Description'),
 			SubmitButton::form('Dump request')->inModal()
 		];
 	}
