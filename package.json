@@ -20,6 +20,8 @@
     },
     "dependencies": {
         "tailwindcss": "^1.7.6",
-        "vue-kompo": "^1.0.20"
+        "vue-kompo": "^1.0.20",
+        "kompo-ckeditor": "^1.0.0",
+        "kompo-googlemaps": "^1.0.0"
     }
 }
